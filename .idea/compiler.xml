@@ -23,7 +23,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="security-shiro" />
+        <module name="shiro-service-matcher" />
+        <module name="shiro-test" />
       </profile>
     </annotationProcessing>
   </component>
