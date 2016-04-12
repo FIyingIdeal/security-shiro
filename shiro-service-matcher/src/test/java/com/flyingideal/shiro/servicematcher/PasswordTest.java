@@ -12,7 +12,7 @@ public class PasswordTest extends BaseTest {
     public void testRetryLimitHashedCredentialsMatcherWithMyRealm() {
         for (int i = 1; i <=5; i++) {
             try {
-                login("classpath:shiro-retryLimitHashedCredentialsMatcher.ini", "liu", "234");
+                login("classpath:shiro-retryLimitHashedCredentialsMatcher.ini", "zhang", "234");
             } catch (Exception e) {}
         }
         login("classpath:shiro-retryLimitHashedCredentialsMatcher.ini", "liu", "234");

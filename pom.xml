@@ -8,5 +8,6 @@
     <modules>
         <module>shiro-service-matcher</module>
         <module>shiro-test</module>
+        <module>shiro-spring</module>
     </modules>
 </project>
